@@ -1,6 +1,5 @@
 import math
-import pandas as pd
-import numpy as np
+
 
 def suma(a, b):
     return a + b
@@ -8,3 +7,7 @@ def suma(a, b):
 
 def resta(a, b):
     return a - b
+
+
+def log(a):
+    return math.log(a)

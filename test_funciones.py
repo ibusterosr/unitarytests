@@ -29,3 +29,7 @@ def test_api():
 
     assert 200 == list_names.status_code
     assert 200 == data_c.status_code
+
+
+def test_log():
+    assert 0.0 == funciones.log(1)
