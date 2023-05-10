@@ -24,7 +24,7 @@ def test_api():
 
     list_names = requests.get(f'{url_base}{names}')
     last_name = list_names.json()[-1]
-    params_c = {'file':last_name}
+    params_c = {'file': last_name}
     data_c = requests.get(f'{url_base}{filedata}', params_c)
 
     assert 200 == list_names.status_code
