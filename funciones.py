@@ -1,3 +1,7 @@
+import math
+import pandas as pd
+import numpy as np
+
 def suma(a, b):
     return a + b
 
