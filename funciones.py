@@ -1,4 +1,4 @@
-import math
+import numpy as np
 
 
 def suma(a, b):
@@ -10,4 +10,4 @@ def resta(a, b):
 
 
 def log(a):
-    return math.log(a)
+    return np.log(a)
