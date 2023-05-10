@@ -12,5 +12,5 @@ def test_resta():
 
 
 def test_suma_resta():
-    assert 2 == funciones.suma(1,1)
-    assert 0 == funciones.resta(1,1)
+    assert 2 == funciones.suma(1, 1)
+    assert 0 == funciones.resta(1, 1)
